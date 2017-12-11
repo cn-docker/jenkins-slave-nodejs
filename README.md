@@ -4,12 +4,29 @@ Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
 
 ## Tools Installed ##
 
-- OpenSSH
+- Node.js
+- Open Java JDK 8
 - Git
 - Subversion
 - Mercurial
 - wget
 - curl
 - unzip
-- Open Java JRE 8
-- Node.js
+- OpenSSH
+- CA Certificates
+
+## Add certificate to connect to HTTPS repositories
+
+To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
+
+	FROM jnonino/jenkins-slave-nodejs
+	LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+
+	# Trust Root CA
+	COPY Root_CA.crt /tmp
+	RUN cp /tmp/Root_CA.crt /usr/local/share/ca-certificates/ && \
+		chmod 644 /usr/local/share/ca-certificates/Root_CA.crt && \
+		update-ca-certificates && \
+		npm config set cafile="/etc/ssl/certs/ca-certificates.crt" && \
+
+	CMD ["/bin/bash"]
