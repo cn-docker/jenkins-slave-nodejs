@@ -2,6 +2,8 @@
 
 Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
 
+	https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/
+
 ## Tools Installed ##
 
 - Node.js
