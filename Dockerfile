@@ -10,7 +10,10 @@ RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certi
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk/jre
 ENV PATH $JAVA_HOME/bin:$JAVA_HOME/lib:$PATH
 
-RUN mkdir /ws
-WORKDIR /ws
+RUN addgroup -S -g 10000 jenkins && \
+    adduser -S -u 10000 -h /home/jenkins -G jenkins jenkins
+
+USER jenkins
+WORKDIR /home/jenkins
 
 CMD ["/bin/sh"]
