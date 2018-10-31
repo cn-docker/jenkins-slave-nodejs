@@ -6,10 +6,9 @@ Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
 
 ## Docker Image Tags ##
 
--	[`latest` (*latest/Dockerfile*)](https://github.com/jnonino/jenkins-slave-nodejs/blob/master/latest/Dockerfile)
--	[`6-alpine` (*6-alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-nodejs/blob/master/6-alpine/Dockerfile)
--	[`8-alpine` (*8-alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-nodejs/blob/master/8-alpine/Dockerfile)
--	[`10-alpine` (*10-alpine/Dockerfile*)](https://github.com/jnonino/jenkins-slave-nodejs/blob/master/10-alpine/Dockerfile)
+-	[`latest` (*latest/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-node.js/src/master/latest/Dockerfile)
+-	[`8-alpine` (*8-alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-node.js/src/master/8-alpine/Dockerfile)
+-	[`10-alpine` (*10-alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-node.js/src/master/10-alpine/Dockerfile)
 
 ## Tools Installed ##
 
