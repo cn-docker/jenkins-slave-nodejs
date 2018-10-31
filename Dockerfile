@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:8-alpine
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 ENV JAVA_VERSION 8u171
