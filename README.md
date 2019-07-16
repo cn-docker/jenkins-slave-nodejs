@@ -1,4 +1,4 @@
-# Jenkins Slave Node.js #
+# Jenkins Slave Node.js [![Docker hub](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-nodejs.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
 
 Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
 
