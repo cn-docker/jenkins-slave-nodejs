@@ -1,8 +1,16 @@
-# Jenkins Slave Node.js [![Docker hub](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-nodejs.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
+# Jenkins Slave Node.js
+
+[![](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-nodejs.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
+[![](hhttps://img.shields.io/docker/build/jnonino/jenkins-slave-nodejs)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
+[![](https://img.shields.io/docker/automated/jnonino/jenkins-slave-nodejs)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
+[![](https://img.shields.io/docker/stars/jnonino/jenkins-slave-nodejs)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
+[![](https://img.shields.io/github/license/jnonino/jenkins-slave-nodejs-docker-image)](https://github.com/jnonino/jenkins-slave-nodejs-docker-image)
+[![](https://img.shields.io/github/issues/jnonino/jenkins-slave-nodejs-docker-image)](https://github.com/jnonino/jenkins-slave-nodejs-docker-image)
+[![](https://img.shields.io/github/issues-closed/jnonino/jenkins-slave-nodejs-docker-image)](https://github.com/jnonino/jenkins-slave-nodejs-docker-image)
+[![](https://img.shields.io/github/languages/code-size/jnonino/jenkins-slave-nodejs-docker-image)](https://github.com/jnonino/jenkins-slave-nodejs-docker-image)
+[![](https://img.shields.io/github/repo-size/jnonino/jenkins-slave-nodejs-docker-image)](https://github.com/jnonino/jenkins-slave-nodejs-docker-image)
 
 Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
-
-	https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/
 
 ## Tools Installed ##
 
