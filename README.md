@@ -1,9 +1,9 @@
 # Jenkins Slave Node.js
 
-[![](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-nodejs.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
-[![](hhttps://img.shields.io/docker/build/jnonino/jenkins-slave-nodejs)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
-[![](https://img.shields.io/docker/automated/jnonino/jenkins-slave-nodejs)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
-[![](https://img.shields.io/docker/stars/jnonino/jenkins-slave-nodejs)](https://hub.docker.com/r/jnonino/jenkins-slave-nodejs/)
+[![](https://img.shields.io/docker/pulls/cnservices/jenkins-slave-nodejs.svg)](https://hub.docker.com/r/cnservices/jenkins-slave-nodejs/)
+[![](hhttps://img.shields.io/docker/build/cnservices/jenkins-slave-nodejs)](https://hub.docker.com/r/cnservices/jenkins-slave-nodejs/)
+[![](https://img.shields.io/docker/automated/cnservices/jenkins-slave-nodejs)](https://hub.docker.com/r/cnservices/jenkins-slave-nodejs/)
+[![](https://img.shields.io/docker/stars/cnservices/jenkins-slave-nodejs)](https://hub.docker.com/r/cnservices/jenkins-slave-nodejs/)
 [![](https://img.shields.io/github/license/cn-cicd/jenkins-slave-nodejs)](https://github.com/cn-cicd/jenkins-slave-nodejs)
 [![](https://img.shields.io/github/issues/cn-cicd/jenkins-slave-nodejs)](https://github.com/cn-cicd/jenkins-slave-nodejs)
 [![](https://img.shields.io/github/issues-closed/cn-cicd/jenkins-slave-nodejs)](https://github.com/cn-cicd/jenkins-slave-nodejs)
@@ -29,7 +29,7 @@ Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
 
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
-	FROM jnonino/jenkins-slave-nodejs
+	FROM cnservices/jenkins-slave-nodejs
 	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 	# Trust Root CA
