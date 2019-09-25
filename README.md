@@ -30,7 +30,7 @@ Jenkins Slave for Node.js builds. Docker image based on Node.js official image.
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
 	FROM cnservices/jenkins-slave-nodejs
-	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
+	LABEL maintainer="CN Services <noninojulian@gmail.com>"
 
 	# Trust Root CA
 	COPY Root_CA.crt /tmp
